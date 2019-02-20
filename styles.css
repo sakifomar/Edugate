@@ -1,0 +1,520 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+.top-bar{
+	background:#242c42;
+	color:#fff;
+	padding:8px;
+}
+.top-bar ul.header-contact{
+	padding:0px;
+    list-style:none;
+	
+}
+.top-bar ul.header-contact li{
+	display:inline;
+	margin-right:20px;
+}
+.top-bar ul.header-contact li a
+{
+	color:#fff;
+	font-size:12px;
+}
+.top-bar ul.header-contact li a i{
+	color:#86bc42;
+	margin-right:5px;
+}
+
+.top-bar ul.header-social{
+	padding:0px;
+	list-style:none;
+	margin:0px;
+}
+.top-bar ul.header-social li{
+	float:left;
+	padding:0px 15px;
+	
+}
+.top-bar ul.header-social li a
+{
+	color:#fff;
+	font-size:12px;
+	
+}
+.top-bar ul.header-social li a:hover{
+	color:#86bc42;
+}
+.header-user {
+	padding:0px;
+    list-style:none;
+	float:right;
+	margin:0px;
+}
+.header-user li{
+	float:left;
+	
+	
+}
+.header-user li a{
+	color:#fff;
+	padding:0px 15px;
+	border-right:1px solid #fff;
+	font-size:12px;
+}
+.header-user li:last-child a{
+	border:none;
+}
+
+.top-bar a:hover{
+	text-decoration:none;
+}
+
+/* Navigation */
+.navbar-panel
+{
+position:relative;
+z-index:1;
+-webkit-box-shadow: 0px 2px 17px -4px rgba(102,102,102,0.69);
+-moz-box-shadow: 0px 2px 17px -4px rgba(102,102,102,0.69);
+box-shadow: 0px 2px 17px -4px rgba(102,102,102,0.69);
+}
+.mynavbar {
+	background:none;
+	border:none;
+	margin-bottom:0px;
+	
+}
+.mynavbar .navbar-nav>li{
+	padding:0px 15px;
+}
+.mynavbar .navbar-nav>li>a {
+    text-transform:uppercase;
+	line-height: 100px;
+	padding:0px;
+	font-size:14px;
+	color:#242c42;
+	border-bottom:5px solid #fff;
+}
+.mynavbar .navbar-nav>li>a:hover{
+	border-bottom:5px solid #86bc42;
+	color:#86bc42;
+	
+}
+/* End Navigation */
+
+/* index slider */
+.carousel-indicators li{
+    width:16px;
+    height:16px;
+    margin:2px;
+    border:2px solid #bfc6d7;
+    background:none;
+}
+.carousel-indicators .active{
+    background:#87d37c;
+     border:2px solid #87d37c;
+    width:16px;
+    height:16px;
+    margin:2px;
+    
+}
+
+
+.slider h2{
+    color:#242C42;
+    font-size:60px;
+    font-family: inherit;
+	text-shadow:none;
+	font-weight:bold;
+}
+.slider h5{
+    font-weight:300;
+	color:#242c42;
+	font-size:30px;
+	text-shadow:none;
+}
+.slider p{
+    color:#242C42;
+}
+.slider .btn{
+    background-color:#86BC42;
+    color: #fff;
+	border-radius:0px;
+	font-size:20px;
+	padding:6px 20px;
+}
+.carousel-caption{
+	
+}
+.carousel-caption.text-left{
+   text-align:left;
+   left:8%;
+	width:60%;
+   
+}
+/* END of slider */
+
+/* Fact Area */
+.fact-area{
+    background:url(images/background.png);
+}
+.counter-text h3{
+    text-align:center;
+    color:#fff;
+    text-transform:uppercase;
+    font-family: inherit;
+    font-size:30px;
+    margin-top: 100px;
+    
+}
+h2.counter a:hover{
+    
+    text-decoration:none;
+}
+span.line{
+	width: 40px;
+    height: 5px;
+    background: #86BC42;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2.counter a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 60px;
+	font-weight:bold;
+}
+
+.count {
+    margin-top: 45px;
+    
+}
+.count h4{
+    color:#fff;
+    
+}
+
+
+.counter-button.btn-default{
+  color: #fff;
+  background-color: #86BC42;
+  border-color: #86BC42;
+  font-family: inherit;
+
+}
+.counter-button .btn-default:nth-child(odd){
+   color: #fff;
+ background-color: #222E3C;
+ border-color: #fff;
+ font-family: inherit;
+}
+
+.counter-button .btn {
+    padding: 15px 25px;
+    margin: 60px 14px;
+    font-size: 16px;
+    background-color: #86BC42;
+    border-color: #86BC42;
+    color: #fff;
+}
+
+/* End of Area */
+
+/* course area */
+.course-area-top{
+    text-transform:uppercase;
+    margin: 100px 0;
+
+}
+.course-area-top h2{
+    margin-top:10px;
+    font-weight:bold;
+    color:#475862;
+    
+}
+.course-area-top span{
+    color: #4E5F6F;
+    font-weight:bold;
+}  
+.course-text-area{
+    width:50%;
+    float:left;
+    background:#FAFAFA;
+    margin-bottom: 100px;
+}
+.course-area-img {
+    overflow:hidden;
+     background:#FAFAFA;
+}
+.course-area-img img{
+    padding:15px 0;
+}
+.course-text-area h4{
+    margin:0;
+    padding:15px 15px;
+    text-transform:uppercase;
+    
+}
+.course-text-area span{
+    padding:5px 15px;
+     text-transform:uppercase;
+}
+.course-text-area p{
+    padding:15px 15px;
+}
+.course-text-area .btn-default{
+    border: none;
+    border-radius: 0;
+    margin-left: 50px;
+    background-color: #86BC42;
+    color: #fff;
+    padding: 11px 15px;
+    margin-bottom: -19px;
+    text-transform:uppercase;
+}
+
+
+/* end of course area */
+/* Advantage panel */
+.advantage-panel {
+	background:#242C42;
+	margin:20px 0px;
+	color:#fff;	
+	padding-top:30px;
+}
+.advantage-panel .btn-default{
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-color: #86BC42;
+    color: #fff;
+    padding: 11px 15px;
+    text-transform:uppercase;
+}
+.girl-img img{
+	width:300px;
+	position:relative;
+	margin-top:-150px;
+}
+/* End Advantage panel */
+
+/* pricing table */
+.about-top{
+    text-transform:uppercase;
+    margin: 100px 0;
+}
+.about-top h2{
+    margin-top:10px;
+    font-weight:bold;
+    color:#475862;
+    
+}
+.about-top span{
+    color: #4E5F6F;
+    font-weight:bold;
+}
+
+.pricing-area{
+    background-color: #EAEDF6;
+    padding:0px 15px;
+    margin:100px 5px;
+}
+.pricing-area:hover{
+    background-color:#86BC42;
+    color:#fff;
+}
+
+
+.price{
+    background-color:#fff;
+    border: 1px solid #fff;
+    border-radius: 55px;
+    width: 100px;
+    height: 100px;
+    margin-left: 124px;
+    margin-top: -74px;
+    padding:35px 0
+ 
+}
+.price span{   
+    background-color: #EAEDF6;
+    padding: 15px 15px;
+    border: 1px solid #EAEDF6;
+    border-radius: 35px;
+       
+}
+
+.trial h4{
+     text-transform:uppercase;
+     margin-bottom:0;
+     
+}
+.trial{
+    padding:15px 15px;
+   
+}
+.links{
+    background:#fff;
+    padding:30px 15px;
+    
+}
+.links ul{
+    list-style:none;
+    padding-right: 25px;
+}
+.links li{
+    padding: 20px 0px;
+}
+.links a{
+    color:#000;
+    text-decoration:none;
+  
+}
+.btton p{
+   padding: 15px 0;
+   text-transform:uppercase;
+   font-weight:bold;
+   
+    
+}
+ 
+/* End pricing table */
+
+/* ABOUT EDUGATE */
+.about-edugate-top{
+   margin: 100px 0;
+}
+.about-edugate-top p{
+    text-transform:uppercase;
+}
+.about-edugate-top h2{
+    margin-top:0;
+    text-transform:uppercase;
+}
+.about-edugate-img{
+  margin-bottom:100px;
+}
+.about-edugate-text{
+      background:#FAFAFA;
+}
+.about-edugate-img img{
+    width:500px;
+    margin-left: 58px;
+}
+.about-edugate-text h4{
+    margin:0;
+    padding:15px 15px;
+    text-transform:uppercase;
+    
+}
+.about-edugate-text span{
+    padding:5px 15px;
+     text-transform:uppercase;
+}
+.about-edugate-text  p{
+    padding:15px 15px;
+}
+.about-edugate-text  .btn-default{
+    border: none;
+    border-radius: 0;
+    margin-left: 50px;
+    background-color: #86BC42;
+    color: #fff;
+    padding: 11px 15px;
+    text-transform:uppercase;
+    float:right;
+}
+.about-btton .btn-default{
+     border: none;
+    border-radius: 0;
+    background-color: #86BC42;
+    color: #fff;
+    padding: 11px 15px;
+    margin-bottom: 50px;
+    text-transform:uppercase;
+}
+
+/* END ABOUT EDUGATE */
+
+/* Footer */
+.footer-area{
+    background-color:#242C42;
+    padding: 15px 15px;
+}
+.footer-area h3{
+    color:#86BC42;
+    padding: 45px 0;
+    
+  
+}
+.footer-area span, i ,a{
+    color: #fff;
+ 
+}
+
+
+li.firstcol i {
+    padding:15px;
+}
+li.angle i{
+    color:#86BC42;
+    padding: 15px;
+}
+.icon-right{
+    float:left;
+}
+.icon-left{
+    overflow:hidden;
+}
+.footer-area p{
+    color:#fff;
+}
+
+ul.footericon li{
+    list-style:none;
+    display:inline;
+    padding:5px 9px;
+    border:1px solid #3B4757;
+    background-color:#3B4757;
+    color:#fff;
+}
+ul.footericon{
+   margin-top:30px;
+   margin-right:0;
+}
+.nav-tabs{
+    border-bottom:none;
+    
+ 
+}
+.footermenu{
+    width:70%;
+}
+ul.nav-tabs{
+    margin-top: 15px;
+    
+}
+.nav-tabs > li > a {
+    margin-right: 2px;
+   
+ 
+   
+}
+.nav > li > a {
+    position: relative;
+    padding: 10px 15px;
+}
+.nav > li > a:hover{
+    color:#5EAC42;
+    border:none;
+}
+.copyright span{
+    float:right;
+    overflow:hidden;
+}
+
+
+/* End of Footer */
+
+
